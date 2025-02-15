@@ -8,6 +8,7 @@ import ProfilePage from "./pages/profile/ProfilePage";
 import ChatbotPage from "./pages/chatbot/ChatbotPage";
 import ChannelsPage from "./pages/channel/ChannelsPage";
 import TwitterSentimentPage from "./pages/twitter/TwitterSentimentPage";
+// import {ThreeDCardDemo} from "./ThreeDCardDemo";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/channels" element={<ChannelsPage />} />
           <Route path="/twitter" element={<TwitterSentimentPage />} />
         </Routes>
+      
       </div>
     </Router>
   );
